@@ -8,6 +8,9 @@ world_champions = {
 
 world_champions[2022] = 'Аргентина'
 
+for key, value in world_champions.items():
+    print(key, '-', value)
+
 country = 'Италия'
 
 if country in world_champions.values():
